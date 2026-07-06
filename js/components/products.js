@@ -6,7 +6,7 @@ function ProductDetails({name,price,discountPrice,srcImg}) {
     {(discountPrice !== "") ? (
      <>
       <p><del>K {price}</del></p>
-      <p>Discount: K{price}</p>
+      <p>Discount: K{discountPrice}</p>
      </>
     ) : (
      <p>K{price}</p>
