@@ -1,3 +1,11 @@
+function Button({msg}) {
+ return(
+  <a href={msg} target="_blank">
+  <button>But Now</button>
+  </a>
+ );
+}
+
 function ProductDetails({name,price,discountPrice,srcImg}) {
  return(
    <div className="item">
@@ -11,10 +19,9 @@ function ProductDetails({name,price,discountPrice,srcImg}) {
     ) : (
      <p>K{price}</p>
     )}
-    <a href="https://wa.me/260973077465?text=Hello! I am interested in buying the ${name}" target="_blank">
+    <a href={`https://wa.me/260973077465?text=Hello! I am interested in buying the ${name}`} target="_blank">
      <button>But Now</button>
     </a>
-  
     
    </div>
  );
