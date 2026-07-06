@@ -1,9 +1,9 @@
 const list = [
  {
-  name: "cotton socks",
-  price: "5.99",
-  discprice: "4.99",
-  srcimg: "img/cotton-socks.png"
+  name: "Stickers",
+  price: "87.58",
+  discprice: "75.99",
+  srcimg: "img/stickers.jpg"
  },
  {
   name: "tennis balls",
