@@ -1,0 +1,53 @@
+body {
+  width:100%;
+  max-width:1000px;
+  margin:0px;
+  padding:0px;
+  background:ghostwhite;
+ }
+ .head {
+   height:70px;
+   color: white;
+   background: #222;
+   display:flex;
+   justify-content:space-between;
+ }.head h2 {
+  margin-left:10px;
+  font-weight:300;
+ }.head .navbtns {
+  height:100%;
+  border:0px solid white;
+  margin-right:10px;
+ }.head .navbtns button {
+  margin-top:50%;
+  background:none;
+  border:0px;
+ }
+ marquee {
+  background:grey;
+  padding:5px;
+  color:white;
+  font-weight:light;
+ }
+ 
+ paragraph {
+ display:block;
+  text-align:center;
+  border:0px solid blue;
+  margin-top:20px;
+ }
+ 
+ .product {
+  margin-top:20px;
+  display: flex;
+  flex-wrap:wrap;
+ }
+ 
+ .product .item {
+   box-shadow:0px 0px 2px grey;
+   padding:5px;
+   margin-bottom:5px;
+   border-radius:3px;
+   margin: 5px;
+   font-size:10px;
+ }
