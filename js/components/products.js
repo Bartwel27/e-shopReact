@@ -11,7 +11,11 @@ function ProductDetails({name,price,discountPrice,srcImg}) {
     ) : (
      <p>K{price}</p>
     )}
-    <button>Add to cart</button>
+    <a href="https://wa.me/260973077465?text=Hello! I am interested in buying the ${name}" target="_blank">
+     <button>But Now</button>
+    </a>
+  
+    
    </div>
  );
 }
