@@ -3,6 +3,7 @@ function App() {
    <>
     <Head title="e-ShopReact" />
     <paragraph>Shop Trending</paragraph>
+    
     <Product/>
    </>
   );

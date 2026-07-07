@@ -10,7 +10,7 @@ function NavigationComponent( {size} ) {
  );
  
  function shownav(){
-  alert("show")
+  
  }
 
  

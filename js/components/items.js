@@ -1,26 +1,44 @@
 const list = [
  {
-  name: "Stickers",
+  name: "Stickers Pack",
   price: "87.58",
-  discprice: "75.99",
-  srcimg: "img/stickers.jpg"
+  discprice: "75.00",
+  srcimg: "img/stickers.jpg",
+  id: crypto.randomUUID()
  },
  {
-  name: "tennis balls",
-  price: "20.40",
-  discprice: "15.99",
-  srcimg: "img/tennis-balls.png"
+  name: "Arduino Starter Kit",
+  price: "2450.00",
+  discprice: "1950.00",
+  srcimg: "img/arduino.jpg",
+  id: crypto.randomUUID()
  },
  {
-  name: "plain t shirt",
-  price: "120.30",
-  discprice: "100.82",
-  srcimg: "img/plain-t-shirt.png"
+  name: "itel it5606",
+  price: "410.00",
+  discprice: "380.00",
+  srcimg: "img/itel5606.jpeg",
+  id: crypto.randomUUID()
  },
  {
-  name: "itel phone",
+  name: "itel it5615",
   price: "500.99",
   discprice: "450.99",
-  srcimg: "img/phone.png"
+  srcimg: "img/phone.png",
+  id: crypto.randomUUID()
+ },
+ {
+  name: "itel A14 GOLD",
+  price: "1250.00",
+  discprice: "990.00",
+  srcimg: "img/Itel-A14-Gold.png",
+  id: crypto.randomUUID()
+ },
+ {
+  name: "itel It21601",
+  price: "210.00",
+  discprice: "150.00",
+  srcimg: "img/itel-It21601.png",
+  id: crypto.randomUUID()
  }
 ];

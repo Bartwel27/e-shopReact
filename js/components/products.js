@@ -15,13 +15,19 @@ function ProductDetails({name,price,discountPrice,srcImg}) {
      <>
       <p><del>K {price}</del></p>
       <p>Discount: K{discountPrice}</p>
+      <a href={`https://wa.me/260973077465?text=Hello! I am interested in buying the ${name} for K${discountPrice}`} target="_blank">
+       <button>But Now</button>
+      </a>
      </>
     ) : (
-     <p>K{price}</p>
+     <>
+      <p>K{price}</p>
+      <a href={`https://wa.me/260973077465?text=Hello! I am interested in buying the ${name} for K${price}`} target="_blank">
+       <button>But Now</button>
+      </a>
+     </>
     )}
-    <a href={`https://wa.me/260973077465?text=Hello! I am interested in buying the ${name}`} target="_blank">
-     <button>But Now</button>
-    </a>
+    
     
    </div>
  );
@@ -39,6 +45,7 @@ function Product() {
          price={get.price}
          discountPrice={get.discprice}
          srcImg={get.srcimg}
+         key={get.id}
         />
        );
      })}
