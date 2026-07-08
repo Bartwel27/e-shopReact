@@ -30,6 +30,7 @@ body {
   color:white;
   font-weight:light;
   font-size:10px;
+  margin-bottom: 0px;
  }
  
  paragraph {
@@ -52,4 +53,7 @@ body {
    border-radius:3px;
    margin: 5px;
    font-size:10px;
+ }
+ .chart {
+  color:white;
  }
