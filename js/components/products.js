@@ -38,17 +38,16 @@ function ProductDetails({name,price,discountPrice,srcImg}) {
  
  function addToCart() {
   mycart.push(list)
-  mycart.map((post)=>{
-   for (let i = 0; i<post.length; i++) {
+  mycart.map((post)=>{ 
+   /*for (let i = 0; i<post.length; i++) {
     alert(`${1+i} `+post[i].name)
-   }
+   }*/
   })
  }
  
 }
 
 function Product() {
-
  return(
   <>
    <div className="product">
