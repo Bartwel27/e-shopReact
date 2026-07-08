@@ -23,7 +23,7 @@ const list = [
  {
   name: "itel it5615",
   price: "500.99",
-  discprice: "450.99",
+  discprice: "485.99",
   srcimg: "img/phone.png",
   id: crypto.randomUUID()
  },

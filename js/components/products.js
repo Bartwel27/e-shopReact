@@ -1,4 +1,5 @@
 function Button({msg}) {
+ 
  return(
   <a href={msg} target="_blank">
   <button>But Now</button>
@@ -7,6 +8,7 @@ function Button({msg}) {
 }
 
 function ProductDetails({name,price,discountPrice,srcImg}) {
+ const mycart = []
  return(
    <div className="item">
     <img src={srcImg} width="100px" />
@@ -18,6 +20,8 @@ function ProductDetails({name,price,discountPrice,srcImg}) {
       <a href={`https://wa.me/260973077465?text=Hello! I am interested in buying the ${name} for K${discountPrice}`} target="_blank">
        <button>But Now</button>
       </a>
+      <br/><br/>
+      <button onClick={addToCart}>Add to cart</button>
      </>
     ) : (
      <>
@@ -31,6 +35,16 @@ function ProductDetails({name,price,discountPrice,srcImg}) {
     
    </div>
  );
+ 
+ function addToCart() {
+  mycart.push(list)
+  mycart.map((post)=>{
+   for (let i = 0; i<post.length; i++) {
+    alert(`${1+i} `+post[i].name)
+   }
+  })
+ }
+ 
 }
 
 function Product() {

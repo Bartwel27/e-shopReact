@@ -9,8 +9,15 @@ function NavigationComponent( {size} ) {
   </>
  );
  
- function shownav(){
   
+ 
+ function shownav(){
+  let count = 0;
+  let chart = document.querySelector('.chart')
+  if (count == 0) {
+   count++
+   chart.style.display="block"
+  }
  }
 
  

@@ -1,10 +1,11 @@
 function AutoSlider(){
  return (
   <marquee scrollamount="5">
-   Simple shopping cart view made using react
+   Simple shopping online e-commerce chart view made using hard coded react & JSX
   </marquee>
  );
 }
+
 
 function Head({ title }) {
   return (
@@ -13,7 +14,10 @@ function Head({ title }) {
      <h2>{title}</h2>        
      <NavigationComponent size="25px" />
     </div>
-    <AutoSlider />
+    <Cart>
+     <AutoSlider />
+    </Cart>
+    
    </>
   );
 }
